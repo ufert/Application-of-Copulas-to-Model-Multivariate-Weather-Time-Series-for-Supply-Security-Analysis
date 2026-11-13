@@ -1,0 +1,19 @@
+# data and outputs are produced by the scripts (see README.md) and not part of the repository
+data/*
+!data/.gitkeep
+data_external/*
+!data_external/.gitkeep
+tmp/
+thesis/*
+!thesis/pics/
+thesis/pics/*
+!thesis/pics/.gitkeep
+
+# figures the national-model notebook saves next to it
+/*.png
+
+# Python and system files
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
